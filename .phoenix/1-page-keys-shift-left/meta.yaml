@@ -1,0 +1,50 @@
+issue:
+  number: 1
+  url: https://github.com/ShankHarinath/mattermost/issues/1
+  title: "Bug when you press page up or page down"
+  reporter: ShankHarinath
+  created_at: "2026-04-20T20:16:45Z"
+  labels:
+    - help wanted
+  classification:
+    class: bug
+    confidence: 0.95
+
+home_repo: ShankHarinath/mattermost
+bug_dir: 1-page-keys-shift-left
+branch: phoenix/1-page-keys-shift-left
+
+status: triaged
+
+repos:
+  - repo: ShankHarinath/mattermost
+    role: primary
+    worktree: /Users/shashank/Canonix/phoenix-worktrees/mattermost-1-page-keys-shift-left
+    pr_url: https://github.com/ShankHarinath/mattermost/pull/2
+    pr_number: 2
+
+scout:
+  confidence: 0.62
+  recommended_next_step: plan
+  affected_repos:
+    - mattermost
+
+approvals:
+  plan:
+    approved: false
+    by: null
+  implement:
+    approved: false
+    by: null
+
+revisions:
+  triage:
+    - rev: 1
+      at: "2026-04-20T20:30:00Z"
+
+slack:
+  channel: C0ATH23P6PQ
+  thread_ts: null
+
+created_at: "2026-04-20T20:30:00Z"
+updated_at: "2026-04-20T20:30:00Z"
