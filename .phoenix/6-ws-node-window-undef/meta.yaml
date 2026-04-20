@@ -1,0 +1,59 @@
+issue:
+  url: https://github.com/ShankHarinath/mattermost/issues/6
+  number: 6
+  home_repo: ShankHarinath/mattermost
+  title: "[Bug]: WebSocket client broken in @mattermost/client when running in Node.js"
+  reporter: ShankHarinath
+  created_at: "2026-04-20T21:22:49Z"
+
+bug_dir: 6-ws-node-window-undef
+branch: phoenix/6-ws-node-window-undef
+slug: ws-node-window-undef
+
+classification:
+  class: bug
+  confidence: 0.95
+
+scout:
+  confidence: 0.95
+  recommended_next_step: architect-plan
+  affected_repos:
+    - ShankHarinath/mattermost
+  primary_file: webapp/platform/client/src/websocket.ts
+  primary_symbols:
+    - WebSocketClient.initialize
+    - WebSocketClient.close
+  regression_commit: 67ab69606a2418fc2da510c2036a24ba942456c2
+  regression_pr: 30788
+
+repos:
+  - repo: ShankHarinath/mattermost
+    role: primary
+    worktree: /Users/shashank/Canonix/phoenix-worktrees/mattermost-6-ws-node-window-undef
+    pr_number: 7
+    pr_url: https://github.com/ShankHarinath/mattermost/pull/7
+
+slack:
+  channel: C0ATH23P6PQ
+  thread_ts: null
+
+approvals:
+  plan:
+    approved: false
+    by: null
+  implement:
+    approved: false
+    by: null
+
+revisions:
+  triage:
+    - rev: 1
+      at: "2026-04-21T00:00:00Z"
+      trigger: ShankHarinath
+      scout_confidence_after: 0.95
+
+followups: []
+
+status: triaged
+created_at: "2026-04-21T00:00:00Z"
+updated_at: "2026-04-21T00:00:00Z"
