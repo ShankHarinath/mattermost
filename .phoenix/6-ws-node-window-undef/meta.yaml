@@ -35,7 +35,7 @@ repos:
 
 slack:
   channel: C0ATH23P6PQ
-  thread_ts: null
+  thread_ts: "1776721841.718499"
 
 approvals:
   plan:
