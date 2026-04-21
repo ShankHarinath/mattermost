@@ -1,0 +1,47 @@
+issue:
+  home_repo: ShankHarinath/mattermost
+  number: 19
+  url: https://github.com/ShankHarinath/mattermost/issues/19
+  title: "Screen reader: Add team button in team sidebar doesn't read out proper label"
+  reporter: ShankHarinath
+  created_at: "2026-04-21T11:11:05Z"
+  labels: []
+  classification:
+    class: bug
+    confidence: 0.90
+bug_dir: 19-create-team-aria-label
+branch: phoenix/19-create-team-aria-label
+created_at: "2026-04-21T11:31:28Z"
+updated_at: "2026-04-21T11:31:28Z"
+status: triaged
+repos:
+  - repo: ShankHarinath/mattermost
+    role: primary
+    worktree: /Users/shashank/Canonix/phoenix-worktrees/mattermost-19-create-team-aria-label
+    pr_url: https://github.com/ShankHarinath/mattermost/pull/20
+    pr_number: 20
+scout:
+  confidence: 0.84
+  recommended_next_step: proceed
+  primary_file: webapp/channels/src/components/team_sidebar/components/team_button.tsx
+  primary_symbol: TeamButton
+  leak_signals:
+    - upstream-JIRA
+    - upstream-PR-in-local-history
+    - upstream-community-channels
+slack:
+  channel: C0ATH23P6PQ
+  thread_ts: null
+approvals:
+  triage:
+    approved: false
+    by: null
+  plan: null
+  implement: null
+revisions:
+  triage:
+    - rev: 1
+      at: "2026-04-21T11:31:28Z"
+      trigger: ShankHarinath
+      scout_confidence_after: 0.84
+followups: []
