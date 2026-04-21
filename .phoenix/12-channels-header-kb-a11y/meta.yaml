@@ -25,7 +25,8 @@ repos:
 
 slack:
   channel: C0ATH23P6PQ
-  thread_ts: null
+  thread_ts: "1776764093.768069"
+  message_link: https://canonix.slack.com/archives/C0ATH23P6PQ/p1776764093768069
 
 approvals:
   triage:
@@ -52,4 +53,4 @@ followups: []
 
 status: triaged
 created_at: "2026-04-21T09:34:11Z"
-updated_at: "2026-04-21T09:34:11Z"
+updated_at: "2026-04-21T09:34:53Z"
