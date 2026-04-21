@@ -31,7 +31,8 @@ repos:
 
 slack:
   channel: C0ATH23P6PQ
-  thread_ts: null
+  thread_ts: "1776774332.021999"
+  permalink: "https://canonix.slack.com/archives/C0ATH23P6PQ/p1776774332021999"
 
 approvals:
   triage:
