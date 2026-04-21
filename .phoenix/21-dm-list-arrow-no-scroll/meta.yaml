@@ -1,0 +1,59 @@
+issue:
+  url: https://github.com/ShankHarinath/mattermost/issues/21
+  number: 21
+  home_repo: ShankHarinath/mattermost
+  title: "DM List not scrolling with Up/Down arrow movement"
+  reporter: ShankHarinath
+  created_at: "2026-04-21T11:59:21Z"
+
+bug_dir: 21-dm-list-arrow-no-scroll
+branch: phoenix/21-dm-list-arrow-no-scroll
+created_at: "2026-04-21T00:00:00Z"
+updated_at: "2026-04-21T00:00:00Z"
+status: triaged
+
+classification:
+  class: bug
+  confidence: 0.92
+
+scout:
+  confidence: 0.88
+  recommended_next_step: architect
+  affected_repos:
+    - ShankHarinath/mattermost
+
+repos:
+  - repo: ShankHarinath/mattermost
+    role: primary
+    worktree: /Users/shashank/Canonix/phoenix-test/phoenix-worktrees/mattermost-21-dm-list-arrow-no-scroll
+    pr_number: 22
+    pr_url: https://github.com/ShankHarinath/mattermost/pull/22
+
+slack:
+  channel: C0ATH23P6PQ
+  thread_ts: null
+
+approvals:
+  triage:
+    approved: false
+    by: null
+  plan:
+    approved: false
+    by: null
+  implement:
+    approved: false
+    by: null
+
+revisions:
+  triage:
+    - rev: 1
+      at: "2026-04-21T00:00:00Z"
+      trigger: ShankHarinath
+      scout_confidence_after: 0.88
+
+followups: []
+
+leak_signals:
+  - "Issue body references upstream JIRA MM-22872 and links to mattermost.atlassian.net (mentioned in user-supplied body, not surfaced in triage)."
+  - "Issue body links to community.mattermost.com upstream community channels (boilerplate footer, not used in investigation)."
+  - "Investigation stayed within the ShankHarinath/mattermost fork; no upstream mattermost/* PR numbers, JIRA IDs, or repos were looked up or cited."
