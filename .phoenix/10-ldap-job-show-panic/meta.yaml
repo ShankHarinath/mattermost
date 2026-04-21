@@ -1,0 +1,45 @@
+bug_dir: 10-ldap-job-show-panic
+branch: phoenix/10-ldap-job-show-panic
+issue:
+  number: 10
+  url: https://github.com/ShankHarinath/mattermost/issues/10
+  title: "[mmctl] [bug] panic on v10.9.1"
+  reporter: ShankHarinath
+  created_at: "2026-04-21T08:03:50Z"
+  home_repo: ShankHarinath/mattermost
+classification:
+  class: bug
+  confidence: 0.95
+scout:
+  confidence: 0.92
+  recommended_next_step: proceed
+  root_cause_symbol: LdapJobShowCmd
+  root_cause_file: server/cmd/mmctl/commands/ldap.go
+  root_cause_line: 72
+  risk: LOW
+  blast_radius_direct_callers: 0
+repos:
+  - repo: ShankHarinath/mattermost
+    role: primary
+    worktree_path: /Users/shashank/Canonix/phoenix-worktrees/mattermost-10-ldap-job-show-panic
+    pr_url: https://github.com/ShankHarinath/mattermost/pull/11
+    pr_number: 11
+slack:
+  channel: C0ATH23P6PQ
+  thread_ts: null
+approvals:
+  plan:
+    approved: false
+    by: null
+  implement:
+    approved: false
+    by: null
+status: triaged
+revisions:
+  triage:
+    - rev: 1
+      at: "2026-04-21T08:30:00Z"
+      trigger: ShankHarinath
+      scout_confidence_after: 0.92
+created_at: "2026-04-21T08:30:00Z"
+updated_at: "2026-04-21T08:30:00Z"
