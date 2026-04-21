@@ -12,7 +12,7 @@ issue:
 bug_dir: 19-create-team-aria-label
 branch: phoenix/19-create-team-aria-label
 created_at: "2026-04-21T11:31:28Z"
-updated_at: "2026-04-21T11:31:28Z"
+updated_at: "2026-04-21T11:32:15Z"
 status: triaged
 repos:
   - repo: ShankHarinath/mattermost
@@ -31,7 +31,8 @@ scout:
     - upstream-community-channels
 slack:
   channel: C0ATH23P6PQ
-  thread_ts: null
+  thread_ts: "1776771134.342799"
+  message_link: "https://canonix.slack.com/archives/C0ATH23P6PQ/p1776771134342799"
 approvals:
   triage:
     approved: false
