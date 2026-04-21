@@ -9,7 +9,7 @@ issue:
 bug_dir: 17-preview-midline-cut
 branch: phoenix/17-preview-midline-cut
 created_at: "2026-04-21T11:00:00Z"
-updated_at: "2026-04-21T11:00:00Z"
+updated_at: "2026-04-21T11:05:00Z"
 status: triaged
 scout:
   confidence: 0.78
@@ -30,7 +30,7 @@ approvals:
   implement: null
 slack:
   channel: C0ATH23P6PQ
-  thread_ts: null
+  thread_ts: "1776769532.112639"
 revisions:
   triage:
     - rev: 1
