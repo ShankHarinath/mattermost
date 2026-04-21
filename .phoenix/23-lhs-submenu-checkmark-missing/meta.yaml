@@ -1,0 +1,49 @@
+issue:
+  number: 23
+  url: https://github.com/ShankHarinath/mattermost/issues/23
+  title: Checkmarks are missing from LHS submenus
+  reporter: ShankHarinath
+  created_at: "2026-04-21T12:45:02Z"
+  home_repo: ShankHarinath/mattermost
+  classification: bug
+  classification_confidence: 0.92
+
+branch: phoenix/23-lhs-submenu-checkmark-missing
+bug_dir: 23-lhs-submenu-checkmark-missing
+status: triaged
+created_at: "2026-04-21T13:01:32Z"
+updated_at: "2026-04-21T13:01:32Z"
+
+scout:
+  confidence: 0.90
+  recommended_next_step: proceed
+  leak_signals:
+    - MM-51091
+
+repos:
+  - repo: ShankHarinath/mattermost
+    role: primary
+    clone: /Users/shashank/Canonix/phoenix-test/mattermost
+    worktree: /Users/shashank/Canonix/phoenix-test/phoenix-worktrees/mattermost-23-lhs-submenu-checkmark-missing
+    pr_number: 24
+    pr_url: https://github.com/ShankHarinath/mattermost/pull/24
+
+approvals:
+  triage:
+    approved: false
+    by: null
+  plan: null
+  implement: null
+
+slack:
+  channel: C0ATH23P6PQ
+  thread_ts: null
+
+followups: []
+
+revisions:
+  triage:
+    - rev: 1
+      at: "2026-04-21T13:01:32Z"
+      trigger: ShankHarinath
+      scout_confidence_after: 0.90
