@@ -26,7 +26,7 @@ scout:
 
 slack:
   channel: C0ATH23P6PQ
-  thread_ts: null
+  thread_ts: "1776765352.676419"
 
 approvals:
   plan: null
@@ -44,4 +44,4 @@ revisions:
 followups: []
 
 created_at: "2026-04-21T15:25:00Z"
-updated_at: "2026-04-21T15:25:00Z"
+updated_at: "2026-04-21T15:26:00Z"
