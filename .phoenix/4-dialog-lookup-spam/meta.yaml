@@ -1,0 +1,55 @@
+issue:
+  repo: ShankHarinath/mattermost
+  number: 4
+  url: https://github.com/ShankHarinath/mattermost/issues/4
+  title: "[Bug]: Lookup triggers on input in every field"
+  reporter: ShankHarinath
+  created_at: "2026-04-20T21:02:35Z"
+classification:
+  class: bug
+  confidence: 0.97
+scout:
+  confidence: 0.88
+  recommended_next_step: plan
+  root_cause_files:
+    - webapp/channels/src/components/apps_form/apps_form_field/apps_form_select_field.tsx
+    - webapp/channels/src/components/apps_form/apps_form_component.tsx
+  root_cause_symbols:
+    - AppsFormSelectField.getDerivedStateFromProps
+    - AppsForm.renderElements
+    - createSanitizedField
+bug_dir: 4-dialog-lookup-spam
+branch: phoenix/4-dialog-lookup-spam
+repos:
+  - repo: ShankHarinath/mattermost
+    role: primary
+    worktree_path: /Users/shashank/Canonix/phoenix-test/phoenix-worktrees/mattermost-4-dialog-lookup-spam
+    pr_url: https://github.com/ShankHarinath/mattermost/pull/5
+    pr_number: 5
+slack:
+  channel: C0ATH23P6PQ
+  thread_ts: null
+  permalink: null
+approvals:
+  triage:
+    approved: false
+    by: null
+  plan:
+    approved: false
+    by: null
+  implement:
+    approved: false
+    by: null
+revisions:
+  triage:
+    - rev: 1
+      at: "2026-04-21T07:57:04Z"
+      trigger: ShankHarinath
+      scout_confidence_before: null
+      scout_confidence_after: 0.88
+      invalidated_downstream: []
+followups: []
+status: triaged
+created_at: "2026-04-21T07:57:04Z"
+updated_at: "2026-04-21T07:57:04Z"
+notes: "rerun=true (prior run leaked upstream mattermost/mattermost#36190; hardened shim + --repo flag validated; this run stayed within fork)"
