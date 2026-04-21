@@ -12,7 +12,7 @@ branch: phoenix/23-lhs-submenu-checkmark-missing
 bug_dir: 23-lhs-submenu-checkmark-missing
 status: triaged
 created_at: "2026-04-21T13:01:32Z"
-updated_at: "2026-04-21T13:01:32Z"
+updated_at: "2026-04-21T13:02:30Z"
 
 scout:
   confidence: 0.90
@@ -37,7 +37,8 @@ approvals:
 
 slack:
   channel: C0ATH23P6PQ
-  thread_ts: null
+  thread_ts: "1776776523.977319"
+  message_link: https://canonix.slack.com/archives/C0ATH23P6PQ/p1776776523977319
 
 followups: []
 
