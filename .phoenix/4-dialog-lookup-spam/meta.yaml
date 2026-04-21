@@ -28,8 +28,8 @@ repos:
     pr_number: 5
 slack:
   channel: C0ATH23P6PQ
-  thread_ts: null
-  permalink: null
+  thread_ts: "1776758270.840369"
+  permalink: https://canonix.slack.com/archives/C0ATH23P6PQ/p1776758270840369
 approvals:
   triage:
     approved: false
@@ -51,5 +51,5 @@ revisions:
 followups: []
 status: triaged
 created_at: "2026-04-21T07:57:04Z"
-updated_at: "2026-04-21T07:57:04Z"
+updated_at: "2026-04-21T07:57:50Z"
 notes: "rerun=true (prior run leaked upstream mattermost/mattermost#36190; hardened shim + --repo flag validated; this run stayed within fork)"
