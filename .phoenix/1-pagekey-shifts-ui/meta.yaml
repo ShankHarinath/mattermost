@@ -10,7 +10,7 @@ issue:
   classification_confidence: 0.95
 branch: phoenix/1-pagekey-shifts-ui
 created_at: "2026-04-23T12:25:48Z"
-updated_at: "2026-04-23T12:25:48Z"
+updated_at: "2026-04-23T12:26:49Z"
 status: triaged
 scout:
   confidence: 0.78
@@ -39,7 +39,7 @@ approvals:
     by: null
 slack:
   channel: C0ATH23P6PQ
-  thread_ts: null
+  thread_ts: "1776947209.259949"
 revisions:
   triage:
     - rev: 1
