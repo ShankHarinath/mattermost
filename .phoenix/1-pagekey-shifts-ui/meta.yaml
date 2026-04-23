@@ -1,0 +1,49 @@
+bug_dir: 1-pagekey-shifts-ui
+issue:
+  number: 1
+  url: https://github.com/ShankHarinath/mattermost/issues/1
+  title: "Bug when you press page up or page down"
+  home_repo: ShankHarinath/mattermost
+  reporter: ShankHarinath
+  created_at: "2026-04-20T20:16:45Z"
+  classification: bug
+  classification_confidence: 0.95
+branch: phoenix/1-pagekey-shifts-ui
+created_at: "2026-04-23T12:25:48Z"
+updated_at: "2026-04-23T12:25:48Z"
+status: triaged
+scout:
+  confidence: 0.78
+  root_cause_confidence: 0.78
+  fix_direction_confidence: 0.72
+  recommended_next_step: plan_idiomatic_fix_mattermost
+  fix_shape_recommended: idiomatic
+  converged: true
+  hypotheses_count: 4
+  hypotheses_confirmed: 1
+repos:
+  - repo: ShankHarinath/mattermost
+    role: primary
+    worktree: /Users/shashank/Canonix/phoenix-worktrees/mattermost-1-pagekey-shifts-ui
+    pr_number: 26
+    pr_url: https://github.com/ShankHarinath/mattermost/pull/26
+approvals:
+  triage:
+    approved: false
+    by: null
+  plan:
+    approved: null
+    by: null
+  implement:
+    approved: null
+    by: null
+slack:
+  channel: C0ATH23P6PQ
+  thread_ts: null
+revisions:
+  triage:
+    - rev: 1
+      at: "2026-04-23T12:25:48Z"
+      trigger: "9397524+ShankHarinath@users.noreply.github.com"
+      scout_confidence_after: 0.78
+followups: []
